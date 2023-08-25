@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de trivia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.css"> 
+</head>
+<body>
+    <section id="sar-game-app" style="background-color: #252938; height: 100vh;">
+        <form class="trivia" id="trivia_game" style="background-color: #252938; padding-top: 5em;">
+          <div class="Pregunta">
+            <div class="AquiVaLaPregunta" id="question">Aqui va la pregunta</div>
+          </div>
+            <div class="container">
+                <div class="choice-container" onclick="clickOnAnswer(this)" style="left: 12em; top: 32em;  ">
+                  <div class="AquiVaLaRespuesta" id="answer1">Aqui va la respuesta</div>
+                </div>
+                <div class="choice-container" onclick="clickOnAnswer(this)" style=" left: 52em; top: 32em;">
+                  <div class="AquiVaLaRespuesta" id="answer2">Aqui va la respuesta</div>
+                </div>
+                <div class="choice-container" onclick="clickOnAnswer(this)" style=" left: 12em; top: 41em;">
+                  <div class="AquiVaLaRespuesta" id="answer3">Aqui va la respuesta</div>
+                </div>
+                <div class="choice-container" onclick="clickOnAnswer(this)" style=" left: 52em; top: 41em;">
+                  <div class="AquiVaLaRespuesta" id="answer4">Aqui va la respuesta</div>
+                </div>
+                <button class="FinalizarButon" id="end">
+                  <div class="Rectangle2"></div>
+                  <div class="Finalizar" id="end">Finalizar</div>
+                </button>
+              </div>
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

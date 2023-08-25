@@ -1,0 +1,247 @@
+/* body{
+    font-size: 1.6em;
+    font-family: 'Inter';
+    justify-content: center;
+    height: 100vh;
+    margin: 0em;
+}
+
+.Pregunta{
+    width: 1450px; 
+    padding-top: .3em; 
+    padding-bottom: .7em; 
+    padding-left: 20em; 
+    padding-right: 303.23px; 
+    left: 82px; top: 78px; 
+    position: absolute; 
+    background: rgba(101.95, 91.92, 123.25, 0.95); 
+    border-radius: 28px; 
+    justify-content: center; 
+    align-items: center
+}
+
+.AquiVaLaPregunta{
+    width: 843.57px; 
+    height: 342px; 
+    text-align: center; 
+    color: white; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    line-height: 70.33px; 
+    letter-spacing: 5.64px; 
+    word-wrap: break-word; padding-top: 2.3em;
+}
+
+.container{
+    width: 90.5em; 
+    height: 20em; 
+    background: #ffffff; 
+    margin-left: 5em;
+}
+
+.choice-container{
+    position: absolute;
+    border-radius: 13px; 
+    overflow: hidden;
+}
+
+.container .choice-container{
+    background: rgba(67.47, 80.11, 127.50, 0.90);
+    border: 1px solid rgba(0,0,0, .15);
+    width: 37em; 
+    height: 7em;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+}
+
+.AquiVaLaRespuesta{
+    width: 37em;
+    position: absolute;
+    left: 26%;
+    top: 26%;
+    color: white; 
+    font-size: 28px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    line-height: 41.03px; 
+    letter-spacing: 4.04px; 
+    word-wrap: break-word; 
+    padding-right: 20em;
+}
+
+.container .choice-container:hover{
+    cursor: pointer;
+    background-color: rgba(67, 102, 175, 0.9);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(67, 102, 175, 0.9);
+    transform: translateY(-0.03rem);
+    transition: transform 500ms;
+  }
+
+  .FinalizarButon{
+    background: #5e8a53;
+    border-radius: .6em;
+  }
+
+  .FinalizarButon:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(52, 182, 63, 0.9);
+    background: rgba(64, 161, 82, 0.9);
+    transform: translateY(-0.03rem);
+    transition: transform 500ms;
+    border-radius: 1em;
+  }
+
+.container .choice-text{
+    pointer-events: none;
+}
+
+.FinalizarButon{
+    width: 448px; 
+    height: 109px; 
+    left: 559px; 
+    top: 51em;
+    position: absolute
+}
+
+.Rectangle2{
+    width: 448px; 
+    height: 109px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 14px
+}
+
+.Finalizar{
+    width: 377.62px; 
+    height: 67.41px; 
+    left: 1.2em; 
+    top: .6em; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    line-height: 58.61px; 
+    letter-spacing: 11.60px; 
+    word-wrap: break-word;
+} */
+
+body {
+    font-size: 1.6em;
+    font-family: 'Inter';
+    justify-content: center;
+    height: 100vh;
+    margin: 0em;
+}
+
+#sar-game-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252938;
+    padding: 2em 0;
+    padding-top: 0; 
+}
+
+.Pregunta {
+    width: 90em;
+    background: rgba(101.95, 91.92, 123.25, 0.95);
+    border-radius: .5em;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    margin-bottom: 2em;
+    padding: .3em 2em;      
+    user-select: none; 
+}
+
+.AquiVaLaPregunta {
+    max-width: 843.57px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 70.33px;
+    letter-spacing: 4.64px;
+    word-wrap: break-word;
+}
+
+.container {
+    width: 90.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #252938;
+    padding: 1em;
+}
+
+.choice-container {
+    width: 43em;
+    height: 8em;
+    margin: 1em 0;
+    background: rgba(67.47, 80.11, 127.50, 0.90);
+    border: 1px solid rgba(0, 0, 0, .15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    overflow: hidden;
+    transition: transform 500ms, background-color 500ms;
+}
+
+.AquiVaLaRespuesta {
+    max-width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 41.03px;
+    letter-spacing: 4.04px;
+    word-wrap: break-word;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    background-color: rgba(67, 102, 175, 0.9);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(67, 102, 175, 0.9);
+}
+
+.FinalizarButon {
+    width: 30em;
+    height: 7em;
+    margin-top: 5em;
+    margin-left: 38em;
+    background: #5e8a53;
+    border-radius: .6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 500ms, background-color 500ms;
+}
+
+.FinalizarButon:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(52, 182, 63, 0.9);
+    background: rgba(64, 161, 82, 0.9);
+    transform: translateY(-0.03rem);
+    border-radius: 1em;
+}
+
+.Finalizar {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 58.61px;
+    letter-spacing: 11.60px;
+    word-wrap: break-word;
+}

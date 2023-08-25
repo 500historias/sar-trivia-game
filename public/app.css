@@ -1,0 +1,10 @@
+:root {
+  font-size: 62.5%;
+}
+
+* { /*Esto e la vaina para que los div tengan el mismo tamana que sus hijos*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255)fff;
+}
